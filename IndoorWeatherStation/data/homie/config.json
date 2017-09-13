@@ -1,0 +1,26 @@
+{
+  "name": "IndoorWeatherStation",
+  "device_id": "iws01",
+  "wifi": {
+    "ssid": "",
+    "password": ""
+  },
+  "mqtt": {
+    "host": "",
+    "port": 1883,
+    "base_topic": "devices/",
+    "auth": true,
+    "username": "",
+    "password": "",
+    "ssl": true,
+    "fingerprint": ""
+  },
+  "ota": {
+    "enabled": true,
+    "host": "",
+    "port": 9080,
+    "path": "/ota",
+    "ssl": false,
+    "fingerprint": ""
+  }
+}
